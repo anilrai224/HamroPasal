@@ -1,0 +1,27 @@
+.notfound{
+    width: 100%;
+    .notFoundContents{
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h1{
+            font-weight: bold;
+            font-size: 80px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            width: max-content;
+            padding: 10px 15px;
+            border-radius: 20px;
+            background-color: #ebe8e2;
+            color:black;
+            font-weight: bold;  
+        }
+    }
+}

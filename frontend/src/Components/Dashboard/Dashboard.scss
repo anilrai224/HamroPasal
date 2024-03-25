@@ -1,0 +1,27 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .dashboardContent{
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            span{
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+.featured{
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    h1{
+        margin: 100px 0 80px 0;
+        text-align: center;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+        max-width: 800px;
+        margin: auto;
+        place-items: center;
+        gap: 20px;
+        .imgContainer{
+
+        }
+        .detailContainer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            span{
+                font-size: 19px;
+                font-weight: bold;
+            }
+            span{
+                font-size: 17px;
+                font-weight: normal;
+            }
+            .prices{
+                display: flex;
+                gap: 10px;
+                .oldPrice{
+                    text-decoration-line: line-through;
+                    font-size: 18px;
+                }
+                .newPrice{
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+            }
+            button{
+                width: max-content;
+                background-color: b2b2b2;
+                border: none;
+                padding: 10px 30px;
+                font-size: 15px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin: 10px 0;
+                cursor: pointer;
+            }
+            span{
+                font-size: 14px;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 20px;
+                font-weight: 200;
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media (max-width:639px) {
+    .container{
+        gap: 60px;
+        .detailContainer{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding: 0 30px;
+            ul{
+                text-align: left;
+            }
+        }
+    }
+}

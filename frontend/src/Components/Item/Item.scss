@@ -1,0 +1,29 @@
+.item{
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    .imgContainer{
+        width: 100%;
+        height: 80%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .itemPrices{
+        display: flex;
+        gap: 10px;
+        .newPrice{
+            text-decoration-line: line-through;
+        }
+    }
+}

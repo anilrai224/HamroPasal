@@ -1,0 +1,49 @@
+.video{
+    position: relative;
+    margin: 100px 0 40px 0;
+    video{
+        height: 100%;
+        filter: brightness(70%);
+    }
+    .action{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute; 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        span{
+            font-weight: bold;
+        }
+        h1{
+            font-size: 50px;
+        }
+        .line{
+            padding: 10px;
+            margin: auto;
+            width: 80px;
+            border-bottom: 3px solid white;
+        }
+        span{
+            margin-top: 20px;
+        }
+        .btn{
+            text-decoration: none;
+            background-color: #fff;
+            color: #000;
+            width: max-content;
+            margin-top: 50px;
+            padding: 10px 30px;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
